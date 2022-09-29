@@ -54,7 +54,7 @@ export default function Home() {
                 display='block'
                 color='lightcyan'
               >
-                "{advice.advice}"
+                {advice.advice}
               </Text>
               <Image pt={6} pb={5} src='./images/pattern-divider-desktop.svg' />
             </Center>
